@@ -54,3 +54,5 @@ Dokumentasjon av hvordan man bruker chatten
 Enkel brukeropplæring
 
 Feilsøking (FAQ / vanlige feil)
+
+litt mer konkret plan, det er at jeg skal lage en slags chatteprototype hvor man kan få og sende meldinger til hverandre, som en slags discord, slack typ opplegg.

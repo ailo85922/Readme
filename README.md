@@ -47,7 +47,7 @@ Kjøre Flask på Pi
 
 Nettverksoppsett
 
-  Brukerstøtte
+Brukerstøtte
 
 Lage brukeropplæring / veiledning
 

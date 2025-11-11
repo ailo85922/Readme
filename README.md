@@ -54,3 +54,7 @@ Lage brukeropplæring / veiledning
 Dokumentasjon (README, guider osv.)
 
 Lage et enkelt og forståelig grensesnitt
+
+Stikkord:
+
+litt erfaring med flask, python og raspberry pi

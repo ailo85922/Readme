@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Notat-nettside</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <h1>📝 Mine notater</h1>
+
+    <form method="POST">
+        <textarea name="note" placeholder="Skriv et notat..." required></textarea>
+        <button type="submit">Lagre notat</button>
+    </form>
+
+    <div class="notes">
+        {% for note in notes %}
+            <div class="note">
+                {{ note.content }}
+            </div>
+        {% else %}
+            <p>Ingen notater ennå.</p>
+        {% endfor %}
+    </div>
+
+</body>
+</html>

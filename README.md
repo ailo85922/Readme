@@ -1,58 +1,82 @@
-# Høst - Prosjekt
-Kort beskrivelse
+# Høstprosjekt – Notat-nettside
 
-Prosjektet skal være et enkelt chat-forum, der brukere kan sende meldinger som lagres i en database og vises for andre.
-Systemet skal kjøre på en Raspberry Pi, ha en Flask-backend, en enkel webside som viser meldinger i sanntid (eller ved reload), og en MariaDB-database for lagring av chat-innhold.
+## 📌 Kort beskrivelse
+Dette prosjektet er en enkel **notat-nettside** der brukere kan skrive og lagre notater via en webside.  
+Notatene lagres i en database og kan vises igjen senere.
 
-# MVP / Prototype
+Prosjektet har fokus på grunnleggende webutvikling og backend-logikk, og kjøres på en **Raspberry Pi** med **Flask** som backend og **MariaDB** som database.
 
-Minimum fungerende løsning:
+---
 
-Flask-server kjører på Raspberry Pi
+## 🎯 Mål med prosjektet
+- Lage en fungerende nettside for å skrive og lagre notater
+- Forstå samspillet mellom frontend, backend og database
+- Lære å sette opp og kjøre en webserver på Raspberry Pi
+- Øve på strukturert utvikling og dokumentasjon
 
-Bruker kan skrive og sende meldinger via nettside
+---
 
-Meldinger lagres i MariaDB
+## 🚀 MVP / Prototype (Minimum Viable Product)
 
-Meldinger vises i chat-feed i nettleser
+Minimum fungerende løsning inneholder:
 
-| Språk/teknologi/utstyr     | Brukes til                 |
-| -------------------------- | -------------------------- |
-| **Python**                 | Backend                    |
-| **Flask**                  | Webserver + API            |
-| **HTML/CSS**               | Brukergrensesnitt          |
-| **JavaScript (valgfritt)** | Oppdatere chat uten reload |
-| **MariaDB**                | Lagring av meldinger       |
-| **SQL**                    | Databasespørringer         |
-| **Raspberry Pi**           | Kjøre systemet             |
-| **Git / GitHub**           | Versjonskontroll           |
-| **GitHub Projects**        | Planlegging                |
+- Flask-server kjører på Raspberry Pi  
+- Bruker kan skrive et notat i et tekstfelt på nettsiden  
+- Notater lagres i MariaDB  
+- Lagrede notater vises på nettsiden  
+- Notatene oppdateres ved reload (eller automatisk med JavaScript)
 
-# Kompetanse – fagområder
-Utvikling
+---
 
-Python-backend med Flask
+## 🛠 Teknologi og verktøy
 
-API-endepunkt for å poste og hente meldinger
+| Språk / Teknologi | Brukes til |
+|------------------|------------|
+| **Python** | Backend-logikk |
+| **Flask** | Webserver og API |
+| **HTML / CSS** | Brukergrensesnitt |
+| **JavaScript (valgfritt)** | Oppdatere notater uten reload |
+| **MariaDB** | Lagring av notater |
+| **SQL** | Databasespørringer |
+| **Raspberry Pi** | Kjøre systemet |
+| **Git / GitHub** | Versjonskontroll |
+| **GitHub Projects** | Planlegging |
 
-Databasedesign og spørringer
+---
 
-Enkelt brukergrensesnitt
+## 🧠 Kompetanse og fagområder
 
-Drift
+### Utvikling
+- Python-backend med Flask
+- Lage API/endepunkt for å lagre og hente notater
+- Enkel databasedesign (notat, tidspunkt)
+- Enkelt og oversiktlig brukergrensesnitt
 
-Installere Flask og MariaDB på Raspberry Pi
+### Drift
+- Installere og konfigurere Flask og MariaDB på Raspberry Pi
+- Kjøre og hoste nettsiden på lokalt nett
+- Koble backend til database
+- Grunnleggende feilsøking
 
-Kjøre/hoste webserveren på lokalt nett
+### Brukerstøtte og dokumentasjon
+- Forklaring av hvordan nettsiden brukes
+- Enkel brukeropplæring
+- Liste over vanlige feil (FAQ)
 
-Håndtere databasekonfigurasjon
+---
 
-Brukerstøtte
+## 📝 Videre arbeid / Mulige utvidelser
+Hvis det er tid, kan prosjektet utvides med:
+- Redigering og sletting av notater
+- Tidsstempel på notater
+- Kategorier eller tags
+- Brukernavn / enkle brukerkontoer
+- Bedre design med CSS
+- Automatisk oppdatering av notater (AJAX)
 
-Dokumentasjon av hvordan man bruker chatten
+---
 
-Enkel brukeropplæring
+## 📂 Prosjektstatus
+Prosjektet er en **prototype** laget som en del av et skoleprosjekt, med fokus på læring og grunnleggende funksjonalitet.
 
-Feilsøking (FAQ / vanlige feil)
 
-litt mer konkret plan, det er at jeg skal lage en slags chatteprototype hvor man kan få og sende meldinger til hverandre, som en slags discord, slack typ opplegg.
